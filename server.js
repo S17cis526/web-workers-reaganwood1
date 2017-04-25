@@ -67,6 +67,8 @@ function handleRequest(req, res) {
     case '/images/mobile.jpg':
       serveFile('images/mobile.jpg', 'image/jpeg', req, res);
       break;
+    case '/permutations.js':
+    break;
     // Serve error code
     default:
       res.statusCode = 404;
